@@ -7,11 +7,6 @@ const style = {
   color: "white",
 };
 
-const image = {
-  width: "55px",
-  height: "65px",
-};
-
 function Table() {
   return (
     <div className="container">
@@ -20,35 +15,27 @@ function Table() {
           <tr style={style}>
             <th scope="col">Image</th>
             <th scope="col">Name</th>
+            <th scope="col">Email</th>
             <th scope="col">Position</th>
             <th scope="col">Salary</th>
           </tr>
         </thead>
         <tbody>
-          <tr className="input-row">
-            <td>
-              <img
-                src="https://d1si3tbndbzwz9.cloudfront.net/baseball/player/4773/w192xh192_headshot.png"
-                alt="Aaron Judge Headshot"
-                style={image}
-              />
-            </td>
-            <td>Aaron Judge</td>
-            <td>Right Field</td>
-            <td>$622,300</td>
-          </tr>
-          <tr className="input-row">
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr className="input-row">
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
+          {players.map((player, i) => (
+            <tr key={i} class="table-row">
+              <td>
+                <img
+                  src={player.image}
+                  alt={player.name}
+                  class="player-image"
+                ></img>
+              </td>
+              <td>{player.name}</td>
+              <td>{player.email}</td>
+              <td>{player.position}</td>
+              <td>{player.salary}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>

@@ -1,8 +1,13 @@
-.input-row {
+.table-row {
   background-color: deepskyblue;
 }
 
 td {
-  font-size: 24px;
+  font-size: 18px;
   color: cornsilk;
+}
+
+.player-image {
+  height: 85px;
+  width: 70px;
 }

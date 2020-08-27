@@ -3,6 +3,7 @@
     "id": 1,
     "name": "Aaron Judge",
     "image": "https://d1si3tbndbzwz9.cloudfront.net/baseball/player/4773/w192xh192_headshot.png",
+    "email": "Judge@alwaysinjured.com",
     "position": "Right Field",
     "salary": "$622,300"
   },
@@ -10,6 +11,7 @@
     "id": 2,
     "name": "Giancarlo Stanton",
     "image": "https://media.gettyimages.com/photos/giancarlo-stanton-of-the-new-york-yankees-poses-during-photo-day-on-picture-id924514140?s=612x612",
+    "email": "Stanton@overpaid.com",
     "position": "Designated Hitter",
     "salary": "$26 million"
   },
@@ -17,6 +19,7 @@
     "id": 3,
     "name": "Gerrit Cole",
     "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32081.png",
+    "email": "Cole@betterpanout.com",
     "position": "Starting Pitcher",
     "salary": "$36 million"
   },
@@ -24,6 +27,7 @@
     "id": 4,
     "name": "Luke Voit",
     "image": "https://b.fssta.com/uploads/application/mlb/headshots/8233.vresize.350.425.medium.64.png",
+    "email": "Voit@lost80pounds.com",
     "position": "First Base",
     "salary": "$634,000"
   },
@@ -31,6 +35,7 @@
     "id": 5,
     "name": "Gleyber Torres",
     "image": "https://d1dglpr230r57l.cloudfront.net/headshots/mlb/24633.jpg",
+    "email": "Torres@Bigshoestofill.com",
     "position": "Short Stop",
     "salary": "$675,500"
   },
@@ -38,6 +43,7 @@
     "id": 6,
     "name": "DJ LeMahieu",
     "image": "https://s3-us-west-2.amazonaws.com/osdb-production/headShots/d1c07b01-a86d-4c17-ac38-8217e364c2cf/160x160-crop.jpg",
+    "email": "DJ@oursavior.com",
     "position": "Second Base",
     "salary": "$12 million"
   },
@@ -45,6 +51,7 @@
     "id": 7,
     "name": "Gary Sanchez",
     "image": "https://b.fssta.com/uploads/application/mlb/headshots/5601.vresize.350.425.medium.40.png",
+    "email": "Sanchez@pleasetradehim.org",
     "position": "Catcher",
     "salary": "$5 million"
   },
@@ -52,6 +59,7 @@
     "id": 8,
     "name": "Gio Urshela",
     "image": "https://b.fssta.com/uploads/application/mlb/headshots/5741.png",
+    "email": "Gio@unspokenhero.com",
     "position": "Third Base",
     "salary": "$2.475 million"
   },
@@ -59,6 +67,7 @@
     "id": 9,
     "name": "Masahiro Tanaka",
     "image": "https://b.fssta.com/uploads/application/mlb/headshots/5706.png",
+    "email": "Tanaka@clutchplayoffpitcher.com",
     "position": "Starting Pitcher",
     "salary": "$23 million"
   },
@@ -66,6 +75,7 @@
     "id": 10,
     "name": "Aroldis Chapman",
     "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30442.png&w=350&h=254",
+    "email": "Chapman@wifeabuser.com",
     "position": "Closer",
     "salary": "$15 million"
   },
@@ -73,6 +83,7 @@
     "id": 11,
     "name": "Brett Gardner",
     "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/29174.png&w=350&h=254",
+    "email": "Gardner@overthehill.com",
     "position": "Left Fielder",
     "salary": "$8 million"
   },
@@ -80,6 +91,7 @@
     "id": 12,
     "name": "Aaron Hicks",
     "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31253.png&w=350&h=254",
+    "email": "Hicks@cantfigureoutifIlikehim.com",
     "position": "Center Field",
     "salary": "$10.5 million"
   }
