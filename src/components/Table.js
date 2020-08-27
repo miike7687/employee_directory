@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Table.css";
+import players from "../players.json";
 
 const style = {
   backgroundColor: "blue",
