@@ -1,5 +1,12 @@
 .table-row {
-  background-color: deepskyblue;
+  background-color: royalblue;
+}
+
+.table,
+th,
+td,
+.player-info {
+  border: 2px solid black;
 }
 
 td {
@@ -10,4 +17,8 @@ td {
 .player-image {
   height: 85px;
   width: 70px;
+}
+
+tr:hover {
+  background-color: midnightblue;
 }

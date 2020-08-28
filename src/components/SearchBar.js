@@ -6,7 +6,10 @@ const style = {
   display: "block",
   margin: "0 auto",
 };
-
+function handleChange(e) {
+  const userType = e.target.value;
+  console.log(userType);
+}
 function SearchBar() {
   return (
     <div className="search">
@@ -15,6 +18,7 @@ function SearchBar() {
         type="text"
         className="user-type"
         style={style}
+        onChange={handleChange}
       ></input>
     </div>
   );

@@ -22,18 +22,18 @@ function Table() {
         </thead>
         <tbody>
           {players.map((player, i) => (
-            <tr key={i} class="table-row">
+            <tr key={i} className="table-row">
               <td>
                 <img
                   src={player.image}
                   alt={player.name}
-                  class="player-image"
+                  className="player-image"
                 ></img>
               </td>
-              <td>{player.name}</td>
-              <td>{player.email}</td>
-              <td>{player.position}</td>
-              <td>{player.salary}</td>
+              <td className="player-info">{player.name}</td>
+              <td className="player-info">{player.email}</td>
+              <td className="player-info">{player.position}</td>
+              <td className="player-info">{player.salary}</td>
             </tr>
           ))}
         </tbody>
