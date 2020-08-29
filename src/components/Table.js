@@ -109,9 +109,11 @@ import players from "../players.json";
 class Table extends React.Component {
   state = {
     players: players,
+    filteredPlayers: players,
     resultOrdered: [],
     resultFiltered: [],
     search: "",
+    inputString: "",
   };
 
   sortByName = () => {
@@ -167,16 +169,17 @@ class Table extends React.Component {
   };
 
   filterPlayers = (e) => {
-    const userType = e.target.value;
+    debugger;
+
     // const name = e.target.name;
-    let filteredPlayers = this.state.players;
-    console.log(userType);
-    let newPlayers = filteredPlayers.filter((player) =>
-      player.name.toLowerCase().includes(userType.toLowerCase())
+    let allPlayers = this.state.players;
+    // console.log(userType);
+    let newPlayers = allPlayers.filter((player) =>
+      player.name.toLowerCase().includes(e.target.value.toLowerCase())
     );
     console.log(newPlayers);
     this.setState({
-      players: newPlayers,
+      filteredPlayers: newPlayers,
     });
   };
 
@@ -244,7 +247,7 @@ class Table extends React.Component {
           </thead>
 
           <tbody>
-            {this.state.players.map((player, i) => (
+            {this.state.filteredPlayers.map((player, i) => (
               <tr key={i} className="table-row">
                 <td>
                   <img
